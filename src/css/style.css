@@ -1,0 +1,31 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 20px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 134px;
+}
+.nav-list {
+    display: inline-flex;
+}
+.item {
+    font-size: 18px;
+    margin-right: 64px;
+}
+.item:last-child{
+    margin-right: 0;
+}
